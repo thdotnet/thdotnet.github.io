@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "New Blog!"
+date:   2019-05-14 17:01:11 -0300
+categories: [azure, blog]
+author: thdotnet
+image: assets/images/12.jpg
+featured: true
+hidden: false
+---
+It's been a while since the last time I've created a new blog post. There are many reasons, but the truth is that things change so fast in the Azure/Cloud world, that all the effort to compose ideas that will generate a new post, doesn't seem to worth. 
+
+At the same time, many times I've googled about a particular issue on Azure, and guess what, I've found my own answer / blog post from the past. I'll try again and hopefully it will help you to solve your problems or give you insights about new possibilities using Microsoft Azure.
+
+Welcome, and feel free to send a tweet @thdotnet 

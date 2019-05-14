@@ -1,1 +1,64 @@
-theme: jekyll-theme-cayman
+# Site
+name: "Azure Ninja"
+title: "Azure Ninja"
+description: "News, information and more about Microsoft Azure."
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
+baseurl: 
+google_analytics: ''
+#disqus: 'demowebsite'
+#mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+include: ["_pages"]
+permalink: /:title/
+
+# Authors
+authors:
+  thdotnet:
+    name: Thiago
+    display_name: Thiago    
+    avatar: 'assets/images/ninja-thiago.png'
+    gravatar: assets/images/ninja-thiago.png
+    email: thiago.custodio@hotmail.com
+    web: https://azureninja.io
+    twitter: https://twitter.com/thdotnet
+    description: "Microsoft Azure MVP, Cloud Solutions Architect, Professor, Author and Speaker."
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+    
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+    
+# Pagination 
+paginate: 6
+paginate_path: /page:num/
+    
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: "ca-pub-3412143450191416"
+adsense-data-ad-slot: "1363087678"
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "enabled"
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
