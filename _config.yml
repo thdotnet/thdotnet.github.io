@@ -2,8 +2,8 @@
 name: "Azure Ninja"
 title: "Azure Ninja"
 description: "News, information and more about Microsoft Azure."
-logo: 'images/logo.png'
-favicon: 'images/logo.png'
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
 baseurl: 
 google_analytics: ''
 #disqus: 'demowebsite'
@@ -16,8 +16,8 @@ authors:
   thdotnet:
     name: Thiago
     display_name: Thiago    
-    avatar: 'images/ninja-thiago.png'
-    gravatar: images/ninja-thiago.png
+    avatar: 'assets/images/ninja-thiago.png'
+    gravatar: assets/images/ninja-thiago.png
     email: thiago.custodio@hotmail.com
     web: https://azureninja.io
     twitter: https://twitter.com/thdotnet
